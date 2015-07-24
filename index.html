@@ -5,11 +5,11 @@
   <title></title>
 </head>
 <body>
-  <script src="./bower_components/eventEmitter/EventEmitter.js"></script>
-  <script src="./index.js"></script>
+  <script src="./node_modules/wolfy87-eventemitter/EventEmitter.js"></script>
+  <script src="./src/index.js"></script>
   <script>
     navigator.webkitGetUserMedia({ audio: true }, function (stream) {
-      isTalking.init(stream);
+      isTalking.init({ stream: stream });
     }, function (error) {
       console.log('Sorry dude');
     });
@@ -17,7 +17,6 @@
       console.log('Talking');
     });
     isTalking.no(function () {
-      console.log('Stoped');
     });
   </script>
 </body>

@@ -1,0 +1,22 @@
+{
+  "name": "istalking",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mgechev/istalking.git"
+  },
+  "author": "Minko Gechev <mgechev@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mgechev/istalking/issues"
+  },
+  "homepage": "https://github.com/mgechev/istalking",
+  "dependencies": {
+    "wolfy87-eventemitter": "^4.2.11"
+  }
+}
